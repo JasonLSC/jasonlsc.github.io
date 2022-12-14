@@ -51,7 +51,7 @@
                     </li>
                     <li>
                         
-                            Hao Li
+                          Hao Li
                         
                         </br>Zhejiang University
                     </li>
@@ -99,21 +99,11 @@
 
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-
-                </video>
-                <video id="v0" width="100%" autoplay loop muted controls>
-                <source src="img/steernerf_final.mp4" type="video/mp4" />
-                </video>
-                
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
                 <h3>
                     Abstract
                 </h3>
-                <image src="img/teaser.jpg" class="img-responsive" alt="overview"><br>
+                <image src="img/teaser_p1_v2.jpg" class="img-responsive" alt="overview"><br>
+                <image src="img/teaser_p2.jpg" class="img-responsive" alt="overview"><br>
                 <p class="text-justify">
                     Neural Radiance Fields (NeRF) have demonstrated superior novel view synthesis performance but are slow at rendering. To speed up the volume rendering process, many acceleration methods have been proposed at the cost of large memory consumption. To push the frontier of the efficiency-memory trade-off, we explore a new perspective to accelerate NeRF rendering, leveraging a key fact that the viewpoint change is usually smooth and continuous in interactive viewpoint control. This allows us to leverage the information of preceding viewpoints to reduce the number of rendered pixels as well as the number of sampled points along the ray of the remaining pixels. In our pipeline, a low-resolution feature map is rendered first by volume rendering, then a lightweight 2D neural renderer is applied to generate the output image at target resolution leveraging the features of preceding and current frames. We show that the proposed method can achieve competitive rendering quality while reducing the rendering time with little memory overhead, enabling 30FPS at 1080P image resolution with a low memory footprint. 
                 </p>
